@@ -244,7 +244,7 @@ public class Main {
 
         UniversityServiceImpl universityService = new UniversityServiceImpl();
         universityService.setUniversityArrayList(universityArrayList);
-        System.out.println(universityService.getBㄱyUniversityName("중앙대학교").toString());
+        System.out.println(universityService.getByUniversityName("중앙대학교").toString());
 
 
 
